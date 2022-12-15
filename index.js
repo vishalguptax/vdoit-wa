@@ -61,7 +61,7 @@ app.post("/webhook", (req, res) => {
           messaging_product: "whatsapp",
           to: from,
           text: {
-            body: JSON.stringify(body_param),
+            body: "Hi, Thanks for contacting VDoIT, we will reach you soon! 😊",
           },
         },
         headers: {
