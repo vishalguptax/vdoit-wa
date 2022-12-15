@@ -55,14 +55,14 @@ app.post("/webhook", (req, res) => {
         method: "POST",
         url:
           "https://graph.facebook.com/v15.0/" +
-          phon_no_id +
+          103480812618931 +
           "/messages?access_token=" +
           token,
         data: {
           messaging_product: "whatsapp",
           to: from,
           text: {
-            body: "Hi, Thanks for contacting, we will reach you soon! 😀"
+            body: "Hi, Thanks for contacting, we will reach you soon! 😀",
           },
         },
         headers: {
